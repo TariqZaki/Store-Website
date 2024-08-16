@@ -1,0 +1,61 @@
+<section class="footer  bg-body-tertiary" id="footer">
+    <div class="container">
+        <h3 class="fw-bold mt-3">Stay in touch
+        </h3>
+        <p>Sign up for our newsletter !</p>
+        <div class="input-btn d-flex">
+            <input type="email" placeholder="Your email adrress" class="form-control w-50">
+            <button class="btn btn-dark ms-3" style="width: 150px;">Submit</button>
+        </div>
+        <div class="row my-4">
+            <div class="col-md-4">
+                <div class="useful ">
+                    <h4 class="fw-bold">Useful Links</h4>
+                    <div class="items d-flex justify-content-between">
+                        <ul class="list-unstyled">
+                            @for (li of list; track $index)
+                            {
+                            <li>{{ li }}</li>
+                            }
+                        </ul>
+                        <ul class="list-unstyled">
+                            @for (i of arr; track $index)
+                            {
+                            <li>{{ i }}</li>
+                            }
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="join">
+                    <h4 class="fw-bold">Join us</h4>
+                    <i class="fa-brands fa-facebook me-1"></i>
+                    <i class="fa-brands fa-instagram me-1"></i>
+                    <i class="fa-brands fa-tiktok me-1"></i>
+                    <i class="fa-brands fa-youtube me-1"></i>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="accept">
+                    <h4 class="fw-bold">We Accept</h4>
+                    <img src="https://levaiandloris.com/wp-content/uploads/2023/12/visa.png" class="w-25" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="brdr border-bottom shadow-lg mb-3"></div>
+        <div class="content d-flex justify-content-between">
+            <div class="tax">
+                <p>Tax registration: 602-152 -798
+                </p>
+            </div>
+            <div class="rights">
+                <p>© 2024 | Wekalet EL-Balah | All rights reserved
+                </p>
+            </div>
+        </div>
+        <div class="developer text-center">
+            <p>Developed by <span class="fw-bold cursor-pointer">Tariq Zaki</span></p>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,25 @@
+
+img
+{
+    width: 30%;
+}
+@media (max-width:576px)
+{
+    .carousel-item img
+    {
+        width: 100%;
+    }
+    .title
+    {
+        margin-top: 40px;
+    }
+    .title h2
+{
+    font-size: 20px;
+}
+.title p 
+{
+    font-size: 12px;
+
+}
+}

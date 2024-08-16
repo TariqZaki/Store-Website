@@ -1,0 +1,94 @@
+.lineBefore {
+    position: absolute;
+    left: 45%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 4px;
+    background-color: #212529;
+  }
+  .lineAfter {
+    position: absolute;
+    left: 55%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 4px;
+    background-color: #212529;
+  }
+  form
+  {
+    width: 50%;
+  }
+  
+  .form-control {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #fff;
+    padding-inline: 20px 50px;
+    outline: none;
+  }
+  
+  .form-floating>label{
+    position: absolute;
+    top: 15px;
+    left: 5px;
+    color: #333;
+    border-radius: 15px;
+    cursor: text;
+    padding: 0px 5px !important ;
+    width: fit-content !important;
+    height: fit-content !important;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #show-password {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .form-control:focus ~ label,
+  .form-control:not(:placeholder-shown).form-control:not(:focus) ~ label
+   {
+  
+    width: fit-content;
+    top: 10px;
+    left: 5px;
+    font-size: 16px;
+  }
+  .form-control:focus{
+    box-shadow: none;
+    font-size: 20px;
+    border: 1px solid #fff;
+  }
+
+  /*!<--- media query ---->*/
+  @media (max-width: 576px)
+  {
+   form
+   {
+    width: 100%;
+   }
+   
+      .lineBefore
+  {
+      position: absolute;
+      left: 35%;
+      width: 80px;
+      height: 4px;
+      background-color: #212529;
+  }
+  .lineAfter
+  {
+      position: absolute;
+      left: 65%;
+      width: 80px;
+      height: 4px;
+      background-color: #212529;
+  }
+  
+  }
+  /*!<--- media query ---->*/
